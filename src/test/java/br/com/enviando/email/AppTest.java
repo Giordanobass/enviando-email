@@ -22,7 +22,7 @@ public class AppTest {
 
 		ObjetoEnviaEmail enviaEmail = new ObjetoEnviaEmail("sr.programador.java@gmail.com", "Giordano",
 				"Testando e-mail com Java", stringBuilderTextoEmail.toString());
-		enviaEmail.enviarEmail(true);
+		enviaEmail.enviarEmailAnexo(true);
 		Thread.sleep(5000);
 
 	}
